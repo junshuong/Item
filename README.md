@@ -1,2 +1,2 @@
 # Item
- Item Locator App
+ A Mobile App that Lists Items 

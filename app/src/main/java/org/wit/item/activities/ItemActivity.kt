@@ -25,6 +25,7 @@ class ItemActivity : AppCompatActivity() {
 
         binding.btnAdd.setOnClickListener() {
             item.name = binding.itemName.text.toString()
+            item.description = binding.description.text.toString()
             if (item.name.isNotEmpty()) {
                 items.add(item.copy())
                 i("add Button Pressed: $item")

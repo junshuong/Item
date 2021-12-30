@@ -13,5 +13,8 @@ class MainApp: Application(){
         super.onCreate()
         Timber.plant(Timber.DebugTree())
         i("Item App started")
+        items.add(ItemModel("One", "About one..."))
+        items.add(ItemModel("Two", "About two..."))
+        items.add(ItemModel("Three", "About three..."))
     }
 }
